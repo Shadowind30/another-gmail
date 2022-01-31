@@ -1,5 +1,5 @@
-ion-menu ion-content {
-  --background: var(--ion-item-background, var(--ion-background-color, #fff));
+ion-menu, ion-content, ion-list-header, ion-item {
+  --background: var(--ion-item-background, var(--ion-background-color, #f1f4fb));
 }
 
 ion-menu.md ion-content {
@@ -50,7 +50,7 @@ ion-menu.md ion-item {
 }
 
 ion-menu.md ion-item.selected {
-  --background: rgba(var(--ion-color-primary-rgb), 0.14);
+  --background: #c3e7ff;
 }
 
 ion-menu.md ion-item.selected ion-icon {
