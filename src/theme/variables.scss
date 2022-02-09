@@ -68,17 +68,28 @@
 	--ion-color-medium-shade: #a5a7ac;
 	--ion-color-medium-tint: #c2c5c9;
 
-  /** light **/
-  --ion-color-light: #f1f4fb;
-	--ion-color-light-rgb: 241,244,251;
-	--ion-color-light-contrast: #000000;
-	--ion-color-light-contrast-rgb: 0,0,0;
-	--ion-color-light-shade: #d4d7dd;
-	--ion-color-light-tint: #f2f5fb;
+ /** light **/
+ --ion-color-light: #f4f5f8;
+ --ion-color-light-rgb: 244, 245, 248;
+ --ion-color-light-contrast: #000000;
+ --ion-color-light-contrast-rgb: 0, 0, 0;
+ --ion-color-light-shade: #d7d8da;
+ --ion-color-light-tint: #f5f6f9;
+
+ /** GMAIL light **/
+ --ion-color-gmail-light: #f1f4fb;
+ --ion-color-gmail-light-rgb: 241,244,251;
+ --ion-color-gmail-light-contrast: #000000;
+ --ion-color-gmail-light-contrast-rgb: 0,0,0;
+ --ion-color-gmail-light-shade: #d4d7dd;
+ --ion-color-gmail-light-tint: #f2f5fb;
 
   /** Custom **/
-  --ion-color-transparebt: transparent;
-
+  --ion-color-transparent: transparent;
+  --ion-color-gmail-toolbar: #eef2fb;
+	--ion-color-gmail-toolbar-rgb: 238,242,251;
+	--ion-color-gmail-toolbar-contrast: #000000;
+	--ion-color-gmail-toolbar-contrast-rgb: 0,0,0;
 }
 
 // @media (prefers-color-scheme: dark) {

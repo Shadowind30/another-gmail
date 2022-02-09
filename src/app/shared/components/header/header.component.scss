@@ -1,0 +1,18 @@
+div {
+    padding: 1rem;
+}
+ion-toolbar {
+  box-shadow: 0 0 0.5rem #888;
+  --background: var(--ion-color-gmail-toolbar);
+  --padding-start: 1rem;
+  --padding-end: 1rem;
+  border-radius: 3em;
+}
+
+ion-thumbnail {
+  --border-radius: 100%;
+}
+ion-thumbnail {
+  width: 2rem;
+  height: 2rem;
+}
