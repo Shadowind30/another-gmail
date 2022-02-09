@@ -2,7 +2,7 @@
   <ion-split-pane contentId="main-content">
     <ion-menu contentId="main-content" type="overlay">
       <ion-content>
-        <ion-text><h1>Another <ion-text color="danger">Gmail</ion-text></h1></ion-text>
+        <ion-text><h1 style="margin-left: 1rem;">Another <ion-text color="danger">Gmail</ion-text></h1></ion-text>
         <ion-list style="background: #f1f4fb;" lines="none">
 
           <ion-menu-toggle auto-hide="false">
@@ -17,6 +17,7 @@
             <ion-item routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerLinkActive="selected">
               <ion-icon color="dark" slot="start" [name]="p.icon + '-outline'"></ion-icon>
               <ion-label color="dark">{{ p.title }}</ion-label>
+              <ion-badge *ngIf="p.count > 0" [color]="p.color">{{p.count + ' new'}}</ion-badge>
             </ion-item>
           </ion-menu-toggle>
 
@@ -35,6 +36,7 @@
             <ion-item routerDirection="root" [routerLink]="[lbl.url]" lines="none" detail="false" routerLinkActive="selected">
               <ion-icon color="dark" slot="start" [name]="lbl.icon + '-outline'"></ion-icon>
               <ion-label color="dark">{{ lbl.title }}</ion-label>
+              <ion-badge class="no-bg-badge" *ngIf="lbl.count > 0">{{lbl.count < 100 ? lbl.count : '99+'}}</ion-badge>
             </ion-item>
           </ion-menu-toggle>
 

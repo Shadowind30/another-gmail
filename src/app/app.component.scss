@@ -1,5 +1,5 @@
 ion-menu, ion-content, ion-list-header, ion-item {
-  --background: var(--ion-item-background, var(--ion-background-color, #f1f4fb));
+  --background:  var(--ion-color-light);
 }
 
 ion-menu.md ion-content {
@@ -50,7 +50,7 @@ ion-menu.md ion-item {
 }
 
 ion-menu.md ion-item.selected {
-  --background: #c3e7ff;
+  --background: var(--ion-color-primary);
 }
 
 ion-menu.md ion-item.selected ion-icon {
@@ -116,4 +116,9 @@ ion-note {
 
 ion-item.selected {
   --color: var(--ion-color-primary);
+}
+
+ion-badge.no-bg-badge {
+  --background: var(--ion-color-transparent);
+  --color: var(--ion-color-dark);
 }
